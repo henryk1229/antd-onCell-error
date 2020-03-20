@@ -39,8 +39,7 @@ function App() {
         width={50}
         onCell={(record) => {
           return {
-            record,
-            dataIndex: "__status",
+            record
           }
         }}
       />
